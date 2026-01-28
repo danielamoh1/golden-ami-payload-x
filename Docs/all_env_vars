@@ -1,0 +1,32 @@
+==== env variables ===
+
+—AMAZON Corretto8
+
+$ENV:BUILD_LOG_DIR="C:\Temp\BuildLogs"
+$ENV:INSTALLER_CACHE_DIR="C:\Installers"
+
+$ENV:CORRETTO8_INSTALLER_URL="https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jdk.msi"
+$ENV:CORRETTO8_INSTALLER_ARGS="/i {INSTALLER_PATH} /qn /norestart"
+
+# used for verification
+$ENV:CORRETTO8_JAVA_EXE_PATH="C:\Program Files\Amazon Corretto\jdk8*\bin\java.exe"
+
+—— DBVisualizer:
+
+
+$ENV:BUILD_LOG_DIR="C:\Temp\BuildLogs"
+$ENV:INSTALLER_CACHE_DIR="C:\Installers"
+
+$ENV:DBVIS_INSTALLER_URL="https://www.dbvis.com/product_download/dbvis-13.0.5/media/dbvis_windows-x64_13_0_5.exe"
+$ENV:DBVIS_EXE_PATH="C:\Program Files\DbVisualizer\dbvis.exe"
+$ENV:DBVIS_INSTALLER_ARGS="/S"
+
+
+—- Notepad++
+
+$ENV:BUILD_LOG_DIR="C:\Temp\BuildLogs"
+$ENV:INSTALLER_CACHE_DIR="C:\Installers"
+
+$ENV:NOTEPADPP_INSTALLER_URL="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.4/npp.8.6.4.Installer.x64.exe"
+$ENV:NOTEPADPP_EXE_PATH="C:\Program Files\Notepad++\notepad++.exe"
+$ENV:NOTEPADPP_INSTALLER_ARGS="/S"
