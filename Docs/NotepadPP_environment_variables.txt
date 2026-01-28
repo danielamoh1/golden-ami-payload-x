@@ -1,0 +1,7 @@
+$ENV:BUILD_LOG_DIR="C:\Temp\BuildLogs"
+$ENV:INSTALLER_CACHE_DIR="C:\Installers"
+
+$ENV:NOTEPADPP_INSTALLER_URL="https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6.4/npp.8.6.4.Installer.x64.exe"
+$ENV:NOTEPADPP_EXE_PATH="C:\Program Files\Notepad++\notepad++.exe"
+$ENV:NOTEPADPP_INSTALLER_ARGS="/S"
+$ENV:NOTEPADPP_VERSION="8.6.4"
