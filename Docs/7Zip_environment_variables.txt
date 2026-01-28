@@ -1,0 +1,6 @@
+$ENV:BUILD_LOG_DIR="C:\Temp\BuildLogs"
+$ENV:INSTALLER_CACHE_DIR="C:\Installers"
+
+$ENV:SEVENZIP_INSTALLER_URL="https://www.7-zip.org/a/7z2408-x64.msi"
+$ENV:SEVENZIP_EXE_PATH="C:\Program Files\7-Zip\7z.exe"
+$ENV:SEVENZIP_INSTALLER_ARGS="/i {INSTALLER_PATH} /qn"
