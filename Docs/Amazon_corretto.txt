@@ -1,0 +1,3 @@
+To confirm if Corretto is installed:
+
+Get-ChildItem "HKLM:\SOFTWARE\JavaSoft\Java Development Kit"
